@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 27 20:22:47 2020
+
+@author: Mana
+"""
+
+#FizzBuzzの拡張として、複数の(整数i , 文字列s)のペアと一つの整数mが渡され、mがiの倍数ならsを出力するプログラムを作成しなさい。
+
+#sはiの小さい順に出力してください(※iが小さい順に並んでいるとは限りません)
+#どのsも出力されなければmを出力してください
+#入力は"input.txt"を読み込みます
+#iとsのペアは"input.txt"に一行ずつ"i:s"形式で渡されます
+#mは"input.txt"の下から２番目の行で渡されます
+#"input.txt"の最終行は空行です
+
+#import pandas as pd
+#import numpy as np
+
+
+#d f = pd.read_csv("/Users/Mana/Downloads/Impressions-train.csv", sep=',')
+# df.head()
+
+#print(df.describe())
+
+#f = open("/Users/Mana/Downloads/movie-codes.txt", "r")
+#print(f.read())
+
+f = open("input.txt", "r")
+print(f.read())
+
+with open("input.txt", "r") as filestream:
+        for line in filestream:
+            currentline = line.split(",")
+           
+m =2
+
+for int(currentline[0]) in f:
+   if(%m ==0)
+       print int(currentline[1]
+    
+    
+  　else print m
+
+
